@@ -1,0 +1,353 @@
+[{
+    "id": 1,
+    "name": "Molly",
+    "breed": "Standard Dachshund",
+    "amFood": {
+        "foodType": "Blue Buffalo Small Bites, Senior", 
+        "cups": 0.25,
+        "additionalIng": "tablespoon of pumpkin"
+        },
+    "pmFood": {
+        "foodType": "Blue Buffalo Small Bites, Senior", 
+        "cups": 0.25,
+        "additionalIng": "tablespoon of pumpkin"
+        },
+    "amMeds": ["Dasoquin", "Apoquel", "1 fish oil"],
+    "pmMeds": ["1 fish oil"],
+    "vetInfo": {
+        "name": "Arizona Animal Wellness Center", 
+        "phone number": "480-988-3660",
+        "preferredVet": "Anyone at AZAWC"
+    }
+},
+{
+    "id": 2,
+    "name": "Sophie",
+    "breed": "Miniature Dachshund",
+    "amFood": {
+        "foodType": "Blue Buffalo Small Bites, Senior", 
+        "cups": 0.25,
+        "additionalIng": "half tablespoon of pumpkin"
+        },
+    "pmFood": {
+        "foodType": "Blue Buffalo Small Bites, Senior", 
+        "cups": 0.25,
+        "additionalIng": "half tablespoon of pumpkin"
+        },
+    "amMeds": ["Dasoquin", "Phenobarbital", "Pimobendan", "Benazapril", "1 fish oil"],
+    "pmMeds": ["Phenobarbital", "Pimobendan", "Benazapril"],
+    "vetInfo": {
+        "name": "Arizona Animal Wellness Center", 
+        "phone number": "480-988-3660",
+        "preferredVet": "Anyone at AZAWC"
+    }
+},
+{
+    "id": 3,
+    "name": "Inka",
+    "breed": "Lab-Pitbull Mix",
+    "amFood": {
+        "foodType": "Blue Buffalo Small Bites, Grain Free", 
+        "cups": 1,
+        "additionalIng": "let her lick the pumpkin spoon"
+        },
+    "pmFood": {
+        "foodType": "Blue Buffalo Small Bites, Grain Free", 
+        "cups": 1,
+        "additionalIng": "let her lick the pumpkin spoon"
+        },
+    "amMeds": ["3 fish oil", "Apoquel"],
+    "pmMeds": ["3 fish oil"],
+    "vetInfo": {
+        "name": "Arizona Animal Wellness Center", 
+        "phone number": "480-988-3660",
+        "preferredVet": "Anyone at AZAWC"
+    }
+},
+{
+    "id": 4,
+    "name": "Chickpea",
+    "breed": "Standard Dachshund",
+    "amFood": {
+        "foodType": "Fromm Gold, Puppy", 
+        "cups": 0.25,
+        "additionalIng": "none"
+        },
+    "pmFood": {
+        "foodType": "Fromm Gold, Puppy", 
+        "cups": 0.25,
+        "additionalIng": "none"
+        },
+    "amMeds": ["none"],
+    "pmMeds": ["none"],
+    "vetInfo": {
+        "name": "Arizona Animal Wellness Center", 
+        "phone number": "480-988-3660",
+        "preferredVet": "Anyone at AZAWC"
+    }
+},
+{
+    "id": 5,
+    "name": "Hazel",
+    "breed": "Standard Dachshund",
+    "amFood": {
+        "foodType": "Science Diet, Weight Loss Formula, Adult Small Bites", 
+        "cups": 0.5,
+        "additionalIng": "none"
+        },
+    "pmFood": {
+        "foodType": "Science Diet, Weight Loss Formula, Adult Small Bites", 
+        "cups": 0.5,
+        "additionalIng": "none"
+        },
+    "amMeds": ["none"],
+    "pmMeds": ["none"],
+    "vetInfo": {
+        "name": "Family VetCare of Mesa", 
+        "phone number": "480-892-7958",
+        "preferredVet": "Anyone at FVM"
+    }
+},
+{
+    "id": 6,
+    "name": "Wolfie",
+    "breed": "Standard Dachshund",
+    "amFood": {
+        "foodType": "Blue Buffalo Small Bites, Adult Small Bites", 
+        "cups": 0.75,
+        "additionalIng": "none"
+        },
+    "pmFood": {
+        "foodType": "Blue Buffalo Small Bites, Adult Small Bites", 
+        "cups": 0.75,
+        "additionalIng": "none"
+        },
+    "amMeds": ["none"],
+    "pmMeds": ["none"],
+    "vetInfo": {
+        "name": "Family VetCare of Mesa", 
+        "phone number": "480-892-7958",
+        "preferredVet": "Anyone at FVM"
+    }
+},
+{
+    "id": 7,
+    "name": "Bandit",
+    "breed": "Standard Dachshund",
+    "amFood": {
+        "foodType": "Blue Buffalo Small Bites, Adult Small Bites", 
+        "cups": 0.75,
+        "additionalIng": "tablespoon of pumpkin"
+        },
+    "pmFood": {
+        "foodType": "Blue Buffalo Small Bites, Adult Small Bites", 
+        "cups": 0.75,
+        "additionalIng": "tablespoon of pumpkin"
+        },
+    "amMeds": ["1 fish oil"],
+    "pmMeds": ["1 fish oil"],
+    "vetInfo": {
+        "name": "Family VetCare of Mesa", 
+        "phone number": "480-892-7958",
+        "preferredVet": "Anyone at FVM"
+    }
+},
+{
+    "id": 8,
+    "name": "Juli",
+    "breed": "Great Dane",
+    "amFood": {
+        "foodType": "Blue Buffalo Small Bites, Adult Small Bites", 
+        "cups": 0.33,
+        "additionalIng": "tablespoon of pumpkin"
+        },
+    "pmFood": {
+        "foodType": "Blue Buffalo Small Bites, Adult Small Bites", 
+        "cups": 0.33,
+        "additionalIng": "tablespoon of pumpkin"
+        },
+    "amMeds": ["1 fish oil"],
+    "pmMeds": ["1 fish oil"],
+    "vetInfo": {
+        "name": "Family VetCare of Mesa", 
+        "phone number": "480-892-7958",
+        "preferredVet": "Anyone at FVM"
+    }
+},
+{
+    "id": 8,
+    "name": "Juli",
+    "breed": "Great Dane",
+    "amFood": {
+        "foodType": "IAMs Large Breed", 
+        "cups": 0.33,
+        "additionalIng": "none"
+        },
+    "pmFood": {
+        "foodType": "IAMs Large Breed", 
+        "cups": 0.33,
+        "additionalIng": "none"
+        },
+    "amMeds": ["1 fish oil"],
+    "pmMeds": ["1 fish oil"],
+    "vetInfo": {
+        "name": "Family VetCare of Mesa", 
+        "phone number": "480-892-7958",
+        "preferredVet": "Anyone at FVM"
+    }
+},
+{
+    "id": 9,
+    "name": "August",
+    "breed": "Lab-Boxer Mix",
+    "amFood": {
+        "foodType": "IAMs Chicken and Lamb", 
+        "cups": 1,
+        "additionalIng": "tablespoon of pumpkin"
+        },
+    "pmFood": {
+        "foodType": "IAMs Chicken and Lamb", 
+        "cups": 1,
+        "additionalIng": "tablespoon of pumpkin"
+        },
+    "amMeds": ["1 fish oil"],
+    "pmMeds": ["1 fish oil"],
+    "vetInfo": {
+        "name": "Family VetCare of Mesa", 
+        "phone number": "480-892-7958",
+        "preferredVet": "Anyone at FVM"
+    }
+},
+{
+    "id": 10,
+    "name": "Tubby",
+    "breed": "Husky-German Shephard Mix",
+    "amFood": {
+        "foodType": "IAMs Chicken and Lamb", 
+        "cups": 0.33,
+        "additionalIng": "tablespoon of pumpkin"
+        },
+    "pmFood": {
+        "foodType": "IAMs Chicken and Lamb", 
+        "cups": 0.33,
+        "additionalIng": "tablespoon of pumpkin"
+        },
+    "amMeds": ["1 fish oil"],
+    "pmMeds": ["1 fish oil"],
+    "vetInfo": {
+        "name": "Family VetCare of Mesa", 
+        "phone number": "480-892-7958",
+        "preferredVet": "Anyone at FVM"
+    }
+},
+{
+    "id": 11,
+    "name": "Odin",
+    "breed": "Great Pyrennese",
+    "amFood": {
+        "foodType": "Blue Buffalo Small Bites, Adult Small Bites", 
+        "cups": 0.33,
+        "additionalIng": "tablespoon of pumpkin"
+        },
+    "pmFood": {
+        "foodType": "Blue Buffalo Small Bites, Adult Small Bites", 
+        "cups": 0.33,
+        "additionalIng": "tablespoon of pumpkin"
+        },
+    "amMeds": ["1 fish oil"],
+    "pmMeds": ["1 fish oil"],
+    "vetInfo": {
+        "name": "Copper View Animal Hospital", 
+        "phone number": "801-753-1165",
+        "preferredVet": "Dr. Nathan Stefanoff"
+    }
+},
+{
+    "id": 12,
+    "name": "Turbo",
+    "breed": "Teacup Poodle",
+    "amFood": {
+        "foodType": "Pre-cooked ground turkey & carrots", 
+        "cups": 0.33,
+        "additionalIng": "none"
+        },
+    "pmFood": {
+        "foodType": "Pre-cooked ground turkey & carrots", 
+        "cups": 0.33,
+        "additionalIng": "none"
+        },
+    "amMeds": ["hydrocodone cough syryp 1 mL"],
+    "pmMeds": ["hydrocodone cough syryp 1 mL"],
+    "vetInfo": {
+        "name": "Copper View Animal Hospital", 
+        "phone number": "801-753-1165",
+        "preferredVet": "Dr. Nathan Stefanoff"
+    }
+},
+{
+    "id": 13,
+    "name": "Zuni",
+    "breed": "Terrier Mix",
+    "amFood": {
+        "foodType": "Blue Buffalo Small Bites, Adult Small Bites", 
+        "cups": 0.33,
+        "additionalIng": "tablespoon of pumpkin"
+        },
+    "pmFood": {
+        "foodType": "Blue Buffalo Small Bites, Adult Small Bites", 
+        "cups": 0.33,
+        "additionalIng": "tablespoon of pumpkin"
+        },
+    "amMeds": ["none"],
+    "pmMeds": ["none"],
+    "vetInfo": {
+        "name": "Copper View Animal Hospital", 
+        "phone number": "801-753-1165",
+        "preferredVet": "Dr. Nathan Stefanoff"
+    }
+},
+{
+    "id": 14,
+    "name": "Eris",
+    "breed": "German Shepard-Lab Mix",
+    "amFood": {
+        "foodType": "Blue Buffalo Small Bites, Adult Small Bites", 
+        "cups": 0.33,
+        "additionalIng": "tablespoon of pumpkin"
+        },
+    "pmFood": {
+        "foodType": "Blue Buffalo Small Bites, Adult Small Bites", 
+        "cups": 0.33,
+        "additionalIng": "tablespoon of pumpkin"
+        },
+    "amMeds": ["3 fish oil", "1 Glucosamine Tablet"],
+    "pmMeds": ["3 fish oil"],
+    "vetInfo": {
+        "name": "Alta Veterinary Hospital", 
+        "phone number": "801-566-1234",
+        "preferredVet": "Anyone at AVH"
+    }
+},
+{
+    "id": 15,
+    "name": "Jalapena AKA Penny",
+    "breed": "Basset Hound",
+    "amFood": {
+        "foodType": "Blue Buffalo, Adult, Lamb & Carrot", 
+        "cups": 1,
+        "additionalIng": "tablespoon of pumpkin"
+        },
+    "pmFood": {
+        "foodType": "Blue Buffalo, Adult, Lamb & Carrot", 
+        "cups": 1,
+        "additionalIng": "tablespoon of pumpkin"
+        },
+    "amMeds": ["2 fish oil"],
+    "pmMeds": ["2 fish oil"],
+    "vetInfo": {
+        "name": "Family VetCare of Mesa", 
+        "phone number": "480-892-7958",
+        "preferredVet": "Anyone at FVM"
+    }
+}
+]
