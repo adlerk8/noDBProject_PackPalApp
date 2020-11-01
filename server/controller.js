@@ -8,6 +8,10 @@ module.exports = {
     getMyPack: (req, res) => {
         res.status(200).send(myPack);
     },
+    // Still need to figure this one out
+    createMember: (req, res) => {
+        res.status(200).send(myPack);
+    },
     editMeds: (req, res) => {
         const {index} = req.params;
         const {amMeds, pmMeds} = req.body;
