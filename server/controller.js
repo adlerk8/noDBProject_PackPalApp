@@ -11,8 +11,14 @@ module.exports = {
     editMeds: (req, res) => {
         const {index} = req.params;
         const {amMeds, pmMeds} = req.body;
-        myPack[index].amMeds = amMeds;
-        myPack[index].pmMeds = pmMeds;
+        fullPack[index].amMeds = amMeds;
+        fullPack[index].pmMeds = pmMeds;
+        res.status(200).send(myPack);
+    },
+    addToMyPack: (req, res) => {
+        const {id} = req.params;
+        const newMember = { ...fullPack.find((dog) => dog.id === +id)};
+        myPack.push(newMember);
         res.status(200).send(myPack);
     },
     removeFromPack: (req, res) => {
