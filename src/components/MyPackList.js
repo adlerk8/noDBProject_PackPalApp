@@ -19,3 +19,5 @@ class MyPackList extends Component {
     );
     }
 }
+
+export default MyPackList;

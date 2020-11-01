@@ -5,3 +5,5 @@ function MyPackMember() {
         
     )
 }
+
+export default MyPackMember;

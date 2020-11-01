@@ -17,3 +17,5 @@ class FullPackList extends Component {
     );
     }
 }
+
+export default FullPackList;
