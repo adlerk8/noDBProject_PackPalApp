@@ -91,14 +91,14 @@
     "name": "Hazel",
     "breed": "Standard Dachshund",
     "amFood": {
-        "foodType": "Science Diet, Weight Loss Formula, Adult Small Bites", 
-        "cups": 0.5,
-        "additionalIng": "none"
+        "foodType": "Hills Prescription Diet, Metabolic Weight Management", 
+        "cups": 0.33,
+        "additionalIng": "1/8 cup green beans"
         },
     "pmFood": {
-        "foodType": "Science Diet, Weight Loss Formula, Adult Small Bites", 
-        "cups": 0.5,
-        "additionalIng": "none"
+        "foodType": "Hills Prescription Diet, Metabolic Weight Management", 
+        "cups": 0.33,
+        "additionalIng": "1/8 cup green beans"
         },
     "amMeds": ["none"],
     "pmMeds": ["none"],
@@ -113,13 +113,13 @@
     "name": "Wolfie",
     "breed": "Standard Dachshund",
     "amFood": {
-        "foodType": "Blue Buffalo Small Bites, Adult Small Bites", 
-        "cups": 0.75,
+        "foodType": "Eukanuba, Adult Small Bites", 
+        "cups": 0.33,
         "additionalIng": "none"
         },
     "pmFood": {
-        "foodType": "Blue Buffalo Small Bites, Adult Small Bites", 
-        "cups": 0.75,
+        "foodType": "Eukanuba, Adult Small Bites", 
+        "cups": 0.33,
         "additionalIng": "none"
         },
     "amMeds": ["none"],
@@ -135,12 +135,12 @@
     "name": "Bandit",
     "breed": "Standard Dachshund",
     "amFood": {
-        "foodType": "Blue Buffalo Small Bites, Adult Small Bites", 
+        "foodType": "Nitro Essentials, Senior, Small Bites", 
         "cups": 0.75,
         "additionalIng": "tablespoon of pumpkin"
         },
     "pmFood": {
-        "foodType": "Blue Buffalo Small Bites, Adult Small Bites", 
+        "foodType": "Nitro Essentials, Senior, Small Bites", 
         "cups": 0.75,
         "additionalIng": "tablespoon of pumpkin"
         },
