@@ -8,16 +8,16 @@ module.exports = {
     getMyPack: (req, res) => {
         res.status(200).send(myPack);
     },
-    // Not even sure I need this.
-    // createMember: (req, res) => {
-    //     res.status(200).send(myPack);
-    // },
     addNote: (req, res) => {
-        const {index} = req.params;
+        const {id} = req.params;
         const {note} = req.body;
 
-        fullPack[index].note = note;
-        res.status(200).send(team);
+        let foundPackMember = myPack.find(e => e.id === +id);
+        if(foundPackMember === undefined) {
+            res.status(404).send(myPack);
+        }
+        foundPackMember.note = note;
+        res.status(200).send(myPack);
     },
     addToMyPack: (req, res) => {
         const {id} = req.params;

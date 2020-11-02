@@ -5,7 +5,8 @@ function PackMember() {
     return(
         <li>
             <h2>{fullPack[index].name}</h2>
-            <button className="addToPackButton" onClick=>Add to My Pack</button>
+            <button className="addToPackButton"
+            onClick={() => {props.addtoTeam(props.fullPack.id)}>Add to My Pack</button>
         </li>
     );
 }

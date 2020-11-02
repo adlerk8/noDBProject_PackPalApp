@@ -10,6 +10,7 @@ function MyPackMember() {
             <h3>{fullPack[index].pmFood}</h3>
             <h3>{fullPack[index].pmMeds}</h3>
             <h3>{fullPack[index].vetInfo}</h3>
+            <button>Add Note</button>
         </li>
     );
 }
