@@ -8,7 +8,7 @@ app.use(express.json());
 
 app.get('/api/FullPackList', ctrl.getFullPack);
 app.get('/api/MyPackList', ctrl.getMyPack);
-app.post('/api/MyPackList/:id', ctrl.editMeds);
+app.put('/api/MyPackList/:id', ctrl.addNote);
 app.delete('/api/MyPackList/:id', ctrl.removeFromPack);
 
 

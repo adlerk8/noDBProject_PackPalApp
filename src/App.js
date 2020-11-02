@@ -9,7 +9,7 @@ class App extends Component {
     super();
 
     this.state = {
-      currentPack = [];
+      currentPack = []
     }
   }
 
@@ -37,8 +37,8 @@ class App extends Component {
     return (
       <div>
         <Header/>
-        <MyPackList/>
-        <FullPackList/>
+        <MyPackList currentPack={this.currentPack} removeFromPack={this.removeFromPack}/>
+        <FullPackList addToPack={this.addToPack}/>
       </div>
     );
   }

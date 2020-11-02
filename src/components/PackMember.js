@@ -1,11 +1,14 @@
 import React from 'react';
 
-function PackMember(props) {
-    return (
-        <ul>
-            <li>{props.addToTeam}</li>
-        </ul>
-    )
+function PackMember() {
+    const {fullPack} = this.props
+    return(
+        <li>
+            <h2>{fullPack[index].name}</h2>
+            <button className="addToPackButton" onClick=>Add to My Pack</button>
+        </li>
+    );
 }
+
 
 export default PackMember;

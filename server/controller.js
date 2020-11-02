@@ -12,12 +12,12 @@ module.exports = {
     // createMember: (req, res) => {
     //     res.status(200).send(myPack);
     // },
-    editMeds: (req, res) => {
+    addNote: (req, res) => {
         const {index} = req.params;
-        const {amMeds, pmMeds} = req.body;
-        fullPack[index].amMeds = amMeds;
-        fullPack[index].pmMeds = pmMeds;
-        res.status(200).send(myPack);
+        const {note} = req.body;
+
+        fullPack[index].note = note;
+        res.status(200).send(team);
     },
     addToMyPack: (req, res) => {
         const {id} = req.params;
