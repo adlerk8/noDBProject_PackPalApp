@@ -1,8 +1,10 @@
 import React from 'react';
 
-function PackMember() {
+function PackMember(props) {
     return (
-
+        <ul>
+            <li>{props.addToTeam}</li>
+        </ul>
     )
 }
 
