@@ -10,6 +10,7 @@ app.get('/api/FullPackList', ctrl.getFullPack);
 app.get('/api/MyPackList', ctrl.getMyPack);
 app.put('/api/MyPackList/:id', ctrl.addNote);
 app.delete('/api/MyPackList/:id', ctrl.removeFromPack);
+app.post('/api/FullPackList/:id', ctrl.addToMyPack);
 
 
 

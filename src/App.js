@@ -9,36 +9,49 @@ class App extends Component {
     super();
 
     this.state = {
-      currentPack = []
+      currentPackList = [],
+      fullPackList = [],
+      note = ""
     }
   }
 
   componentDidMount() {
     axios.get('/api/MyPackList')
     .then((res) => {
-      this.setState({currentPack: res.data})
+      this.setState({currentPackList: res.data})
     })
     .catch((err) => console.log(err));
+    axios.get('/api/FullPackList')
+    .then((res) => {
+      this.setState({fullPackList: res.data})
+    })
+    .catch((err) => console.log(err))
   }
   
-  addToPack(id) {
+  addToPack = (id) => {
     axios.post(`/api/MyPackList/${id}`)
-      .then((res) => {this.setState({ team: res.data })})
+      .then((res) => {this.setState({currentPackList: res.data })})
       .catch((err) => console.log(err));
   }
 
-  removeFromPack = (index) => {
-    axios.delete(`/api/MyPackList/${index}`)
-      .then((res) => {this.setState({team: res.data})})
+  removeFromPack = (id) => {
+    axios.delete(`/api/MyPackList/${id}`)
+      .then((res) => {this.setState({currentPackList: res.data})})
       .catch((err) => console.log(err));
   };
+
+  addNote = (id) => {
+    axios.post(`/api/MyPackList/${id}`, {note})
+      .then((res) => {this.setState({note: res.data})})
+      .catch((err) => console.log(err));
+  }
 
   render () {
     return (
       <div>
         <Header/>
-        <MyPackList currentPack={this.currentPack} removeFromPack={this.removeFromPack}/>
-        <FullPackList addToPack={this.addToPack}/>
+        <MyPackList currentPackList={this.state.currentPackList} removeFromPack={this.removeFromPack}/>
+        <FullPackList fullPackList={this.state.fullPackList} addToPack={this.addToPack}/>
       </div>
     );
   }
