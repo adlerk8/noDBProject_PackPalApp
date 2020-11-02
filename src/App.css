@@ -1,6 +1,8 @@
 .mainPage {
   background-color: #F1E3D3;
   display: flexbox;
+  flex-direction: row;
+  justify-content: center;
 }
 
 .mainHeader {
@@ -78,9 +80,8 @@
   .pickPack {
     font-size: 24px;
     font-style: bold;
-    font-family: 'Indie Flower', cursive;
     overflow-y: scroll;
-    height: 300px;
+    height: 500px;
   }
 
   .choosePack {
@@ -105,4 +106,36 @@
 
   .vetInfo {
     font-size: 12px;
+  }
+
+  .addNoteButton {
+    box-shadow: 0px 10px 14px -7px #F2D0A9;
+    background:linear-gradient(to bottom, #F2D0A9 5%, #F2D0A9 100%);
+    background-color:#F2D0A9;
+    border-radius: 8px;
+    display: inline-block;
+    cursor:pointer;
+    color: black;
+    font-family: Arial;
+    font-size:14px;
+    font-weight: bold;
+    padding: 5px 10px;
+    text-decoration: none;
+    text-shadow:0px 1px 0px #F2D0A9;
+  }
+
+  .removeFromPackButton {
+    box-shadow: 0px 10px 14px -7px #D88C9A;
+    background:linear-gradient(to bottom, #D88C9A 5%, #D88C9A 100%);
+    background-color:#D88C9A;
+    border-radius: 8px;
+    display: inline-block;
+    cursor:pointer;
+    color: black;
+    font-family: Arial;
+    font-size:14px;
+    font-weight: bold;
+    padding: 5px 10px;
+    text-decoration: none;
+    text-shadow:0px 1px 0px #D88C9A;
   }

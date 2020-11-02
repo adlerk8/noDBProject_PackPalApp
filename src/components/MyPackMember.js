@@ -15,7 +15,7 @@ class MyPackMember extends Component {
     
     render() {
         const {myPackMember} = this.props;
-        const {vetInfo, pmFood, amFood} = myPackMember;
+        const {vetInfo, pmFood, amFood, note} = myPackMember;
         return (
             <li className="myPackList">
                 <h2>{myPackMember.name}</h2>
@@ -37,7 +37,11 @@ class MyPackMember extends Component {
                     <h3 className="vetInfo">{vetInfo.phoneNumber}</h3>
                     <h3 className="vetInfo">{vetInfo.preferredVet}</h3>
                 </div>
-                <input placeholder="Type note here..." onChange={(e) => this.handleChange(e.target.value)} type="text"/>
+                <div className="note">
+                    <h2 className="amMeal">Notes:</h2>
+                    <h3 className="vetInfo">{note}</h3>
+                </div>
+                <input placeholder="Type note here..." onChange={(e) => this.handleChange(e.target.value)} type="text" value={this.state.note}/>
                 <button className="addNoteButton" onClick={() => {this.props.addNote(myPackMember.id)}}>Add Note</button>
                 <button className="removeFromPackButton" onClick={() => {this.props.removeFromPack(myPackMember.id)}}>Remove from Pack</button>
             </li>

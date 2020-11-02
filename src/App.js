@@ -43,7 +43,7 @@ class App extends Component {
   };
 
   addNote = (id) => {
-    axios.post(`/api/MyPackList/${id}`, {note: ''})
+    axios.put(`/api/MyPackList/${id}`, {note: ''})
       .then((res) => {this.setState({note: res.data})})
       .catch((err) => console.log(err));
   }
@@ -52,7 +52,7 @@ class App extends Component {
     return (
       <div className="mainPage">
         <Header/>
-        <MyPackList className="myPackDiv"currentPackList={this.state.currentPackList} removeFromPack={this.removeFromPack} addNote={this.addNote}/>
+        <MyPackList className="myPackDiv" currentPackList={this.state.currentPackList} removeFromPack={this.removeFromPack} addNote={this.addNote}/>
         <FullPackList className="fullPackDiv" fullPackList={this.state.fullPackList} addToPack={this.addToPack}/>
       </div>
     );
