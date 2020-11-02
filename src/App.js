@@ -1,4 +1,5 @@
 import React, {Component} from 'react';
+import axios from 'axios';
 import Header from './components/Header';
 import MyPackList from './components/MyPackList';
 import FullPackList from './components/FullPackList';
@@ -9,9 +10,9 @@ class App extends Component {
     super();
 
     this.state = {
-      currentPackList = [],
-      fullPackList = [],
-      note = ""
+      currentPackList: [],
+      fullPackList: [],
+      note: ""
     }
   }
 
@@ -29,8 +30,9 @@ class App extends Component {
   }
   
   addToPack = (id) => {
-    axios.post(`/api/MyPackList/${id}`)
-      .then((res) => {this.setState({currentPackList: res.data })})
+    axios.post(`/api/FullPackList/${id}`)
+      .then((res) => {this.setState({currentPackList: res.data })
+      })
       .catch((err) => console.log(err));
   }
 
@@ -41,17 +43,17 @@ class App extends Component {
   };
 
   addNote = (id) => {
-    axios.post(`/api/MyPackList/${id}`, {note})
+    axios.post(`/api/MyPackList/${id}`, {note: ''})
       .then((res) => {this.setState({note: res.data})})
       .catch((err) => console.log(err));
   }
 
   render () {
     return (
-      <div>
+      <div className="mainPage">
         <Header/>
-        <MyPackList currentPackList={this.state.currentPackList} removeFromPack={this.removeFromPack}/>
-        <FullPackList fullPackList={this.state.fullPackList} addToPack={this.addToPack}/>
+        <MyPackList className="myPackDiv"currentPackList={this.state.currentPackList} removeFromPack={this.removeFromPack} addNote={this.addNote}/>
+        <FullPackList className="fullPackDiv" fullPackList={this.state.fullPackList} addToPack={this.addToPack}/>
       </div>
     );
   }
